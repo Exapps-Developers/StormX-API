@@ -35,14 +35,9 @@ def home():
 
 @app.route('/SendNotification',methods=['POST'])
 def SendNotification():
-
-    id = request.form.get('id')
     title = request.form.get('title')
     content = request.form.get('content')
     imgurl = request.form.get('imgurl')
-
-    if imgurl == 'noimg':
-        imgurl = 'noimg'
 
     postref = posts_ref.document()
 
