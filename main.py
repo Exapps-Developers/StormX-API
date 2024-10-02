@@ -52,7 +52,7 @@ def SendNotification():
         'content': content,
         'shares': 0,
         'submittedat': int(datetime.now().timestamp() * 1000),
-        'sender': [],
+        'sender': ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1224px-NASA_logo.svg.png",'Nasa'],
         'imgurl': imgurl,
         'likes': [],
         'comments': {}
