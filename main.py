@@ -47,7 +47,7 @@ def SendNotification():
         'content': content,
         'shares': 0,
         'submittedat': int(datetime.now().timestamp() * 1000),
-        'sender': ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1224px-NASA_logo.svg.png",'Nasa'],
+        'sender': ["https://firebasestorage.googleapis.com/v0/b/exa-spacex.appspot.com/o/nasa-logo.png?alt=media&token=1118961f-ca8c-457a-b469-cf16aaf38127",'Nasa'],
         'imgurl': imgurl,
         'likes': [],
         'comments': {}
